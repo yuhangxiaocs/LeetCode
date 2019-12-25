@@ -1,4 +1,4 @@
-public class Solution_1025 {
+public class AC_1025_divisorgame_dp {
 
     public boolean divisorGame(int N) {
         boolean[] dp = new boolean[N + 1];
