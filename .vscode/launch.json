@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AC_0005_Manacher",
+            "request": "launch",
+            "mainClass": "AC_0005_Manacher",
+            "projectName": "LeetCode_ea869e04"
+        }
+    ]
+}
