@@ -20,7 +20,7 @@ public class AC_1025_divisorgame_dp {
     }
 
     public static void main(String[] args) {
-        boolean result = new Solution_1025().divisorGame(100);
+        boolean result = new AC_1025_divisorgame_dp().divisorGame(100);
         System.out.println(result);
     }
 }
