@@ -1,3 +1,5 @@
+package dp;
+
 import java.util.Arrays;
 
 public class LC_62_uniquePath {
@@ -45,12 +47,12 @@ public class LC_62_uniquePath {
         }
         return result;
     }
- 
+
     // 组合数
     static public int Combination(int m, int n) {
         System.out.println(F(m));
         System.out.println(F(n));
-        System.out.println(F(m-n));
+        System.out.println(F(m - n));
         return F(m) / (F(n) * F(m - n));
     }
 

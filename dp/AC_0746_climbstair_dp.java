@@ -1,3 +1,5 @@
+package dp;
+
 public class AC_0746_climbstair_dp {
 
     /*

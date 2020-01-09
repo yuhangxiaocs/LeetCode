@@ -1,3 +1,5 @@
+package dp;
+
 public class AC_0070_climbStair {
 
     static public int climbStairs(int n) {
@@ -6,9 +8,9 @@ public class AC_0070_climbStair {
         if (n == 2)
             return 2;
         // 优化存储空间 不需要使用数组 所以空间是常量 
-        int a = 1;  //dp[0]
-        int b = 2;  //dp[1]
-        int c = 0;  //dp[i]
+        int a = 1; //dp[0]
+        int b = 2; //dp[1]
+        int c = 0; //dp[i]
         for (int i = 2; i < n; i++) {
             c = a + b;
             a = b;

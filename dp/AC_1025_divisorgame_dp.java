@@ -1,3 +1,5 @@
+package dp;
+
 public class AC_1025_divisorgame_dp {
 
     public boolean divisorGame(int N) {

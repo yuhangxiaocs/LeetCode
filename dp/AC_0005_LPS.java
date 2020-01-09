@@ -1,3 +1,5 @@
+package dp;
+
 public class AC_0005_LPS {
     public String longestPalindrome(String s) {
         int N = s.length();

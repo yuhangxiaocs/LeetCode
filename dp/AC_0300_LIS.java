@@ -1,10 +1,12 @@
+package dp;
+
 public class AC_0300_LIS {
     static public int lengthOfLIS(int[] nums) {
         int n = nums.length;
         if (n == 0)
             return 0;
-        int[] dp = new int[n];  //初始化为0
-        int maxLength = 0;  //这里设置为0就够了 不满足的话最后也+1 得到正确结果
+        int[] dp = new int[n]; //初始化为0
+        int maxLength = 0; //这里设置为0就够了 不满足的话最后也+1 得到正确结果
         for (int i = 1; i < n; i++) {
             for (int j = 0; j < i; j++)
                 if (nums[i] > nums[j]) {

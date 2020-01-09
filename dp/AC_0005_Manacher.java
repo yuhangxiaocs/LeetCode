@@ -1,3 +1,5 @@
+package dp;
+
 public class AC_0005_Manacher {
 
     public static String Manacher(String s) {
