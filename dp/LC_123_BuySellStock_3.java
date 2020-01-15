@@ -3,6 +3,14 @@ import java.util.Arrays;
 public class LC_123_BuySellStock_3 {
 
     // 99.48% 100% solution
+
+    // link https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/
+    
+    /* 思路是这样的，两次扫描数组，第一次正向扫描，dp1[i]表示第一次交易在i以及之前，的最大收益
+     * dp2[i]是交易发生在i已经之后 所对应的最大收益
+     * 这样两次交易是不会重合的 所以dp1[i]+dp2[i]代表一次<=i一次>=i的交易的最大值
+     * 所以只要求dp1[i]+dp2[i]最大值就可以了
+     */
     static public int maxProfit(int[] prices) {
         if (prices.length < 2)
             return 0;
