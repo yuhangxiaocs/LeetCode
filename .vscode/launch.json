@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimumCostTreeFromLeafValues",
+            "request": "launch",
+            "mainClass": "MinimumCostTreeFromLeafValues",
+            "projectName": "LeetCode_ea869e04"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCostTreeFromLeafValues",
+            "request": "launch",
+            "mainClass": "dp.MinimumCostTreeFromLeafValues",
+            "projectName": "LeetCode_ea869e04"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AC_0005_Manacher",
             "request": "launch",
             "mainClass": "AC_0005_Manacher",
