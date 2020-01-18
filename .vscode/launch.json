@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NextGreaterElementII",
+            "request": "launch",
+            "mainClass": "NextGreaterElementII",
+            "projectName": "LeetCode_ea869e04"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinimumCostTreeFromLeafValues",
             "request": "launch",
             "mainClass": "MinimumCostTreeFromLeafValues",

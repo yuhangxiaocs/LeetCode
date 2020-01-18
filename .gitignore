@@ -55,3 +55,7 @@
 
 # desktop service store
 *.DS_Store
+
+
+# json启动配置
+*.json
