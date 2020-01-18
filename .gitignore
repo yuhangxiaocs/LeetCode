@@ -59,3 +59,7 @@
 
 # json启动配置
 *.json
+
+# idea 配置
+*.iml
+*.xml
